@@ -28,8 +28,8 @@ $query = mysqli_query($koneksi,$sql);
 
     <table border = "1">
         <tr>
-            <th>Id Produk</th>
-            <th>Id_kategori</th>
+            <th>Id_Produk</th>
+            <th>Id_Kategori</th>
             <th>Nama</th>
             <th>Foto</th>
             <th>Deskripsi</th>
