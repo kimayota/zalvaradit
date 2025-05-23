@@ -28,7 +28,7 @@ $query = mysqli_query($koneksi,$sql);
 
     <table border = "1">
         <tr>
-            <th>Id_Produk</th>
+            <th>Id Produk</th>
             <th>Id_kategori</th>
             <th>Nama</th>
             <th>Foto</th>

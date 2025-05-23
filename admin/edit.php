@@ -50,7 +50,7 @@ $query_kategori = mysqli_query($koneksi, $sql_kategori);
 
         <label>Foto</label>
         <input type="file" name="foto" accept="image/*"><br><br>
-        <img src="./images/<?= $produk['foto'] ?>" alt="">
+        <img src="./uploads/<?= $produk['foto'] ?>" alt="">
 
         <label>Deskripsi</label>
         <textarea name="deskripsi" required><?= $produk['deskripsi'] ?></textarea><br><br>

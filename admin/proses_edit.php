@@ -23,7 +23,7 @@ $foto_lama = $data_lama['foto'];
 
 // Cek apakah ada file foto baru yang diunggah
 if (!empty($_FILES['foto']['name'])) {
-    $target_dir = "images/";
+    $target_dir = "uploads/";
     $nama_file_baru = time() . '_' . basename($_FILES["foto"]["name"]);
     $target_file = $target_dir . $nama_file_baru;
     $imageFileType = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));

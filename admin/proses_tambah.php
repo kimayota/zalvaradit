@@ -19,7 +19,7 @@ if (!in_array($ukuran, $ukuran_valid)) {
     die("Ukuran tidak valid!");
 }
 
-$target_dir = "../images/";
+$target_dir = "../uploads/";
 $foto_name = basename($_FILES["foto"]["name"]);
 $target_file = $target_dir . $foto_name;
 $upload_ok = 1;

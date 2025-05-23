@@ -1,11 +1,6 @@
 <?php
-session_start();
-include "koneksi.php";
 
-if(!isset($_SESSION['id'])) {
-    header("location:login.php?pesan=logindulu");
-    exit;
-}
+include "koneksi.php";
 
 $id_produk = $_GET['id_produk'];
 $sql = "DELETE FROM produk WHERE id_produk = '$id_produk' ";
