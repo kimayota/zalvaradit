@@ -23,7 +23,7 @@ $query = mysqli_query($koneksi,$sql);
 </head>
 <body>
     <h1>Produk</h1>
-    <a href="logout.php">Logout</a><br><br>
+    <a href="logout.php">Logout</a><br><br><tr></tr>
     <a href = "tambah.php">Tambah</a><br><br>
 
     <table border = "1">
