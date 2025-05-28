@@ -28,8 +28,13 @@ $query = mysqli_query($koneksi,$sql);
 
     <table border = "1">
         <tr>
+<<<<<<< HEAD
             <th>Id Produk</th>
             <th>Id Kategori</th>
+=======
+            <th>Id_Produk</th>
+            <th>Id_Kategori</th>
+>>>>>>> 8c439b40dbc989f9baca4a117d96220b96740849
             <th>Nama</th>
             <th>Foto</th>
             <th>Deskripsi</th>
